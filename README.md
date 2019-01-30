@@ -5,8 +5,8 @@ This is a sample template for server - Below is a brief explanation of what we h
 ```bash
 .
 ├── README.md                   <-- This instructions file
-├── hello-world                 <-- Source code for a lambda function
-│   ├── app.js                  <-- Lambda function code
+├── serverless                 <-- Source code for a lambda function
+│   ├── index.js                  <-- Lambda function code
 │   ├── package.json            <-- NodeJS dependencies
 │   └── tests                   <-- Unit tests
 │       └── unit
