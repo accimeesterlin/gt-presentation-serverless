@@ -17,7 +17,7 @@ $('button[type="submit"]').on('click', function(event) {
         ClassName: AmazonCognitoIdentity.CognitoUserAttribute
         Param: { Name: 'name', Value: 'name' }
     */
-    const attributeName = new AmazonCognitoIdentity.CognitoUserAttribute({ Name: 'name', Value: name });
+    const attributeName = new AmazonCognitoIdentity.CognitoUserAttribute();
 
      /*
         MethodName: signUp

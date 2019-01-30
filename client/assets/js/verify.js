@@ -20,7 +20,7 @@ $('button[type="submit"]').on('click', function(event) {
         Param2: true
         Param3: handleConfirmRegistration
     */
-    cognitoUser.confirmRegistration(code, true, handleConfirmRegistration);
+    cognitoUser.confirmRegistration();
 });
 
 
