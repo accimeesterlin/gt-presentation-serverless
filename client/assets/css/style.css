@@ -1,0 +1,120 @@
+.signup {
+    height: 485px;
+}
+
+.signin {
+    height: 385px;
+}
+
+.sign-up-form {
+    width: 310px;
+    border: 1px solid lightgrey;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    border-radius: 5px;
+    overflow: hidden;
+
+    background-color: #FDFDFD;
+}
+
+.sign-up-header {
+    display: block;
+    width: auto;
+    height: 70px;
+    background-color: #333A44;
+    background-image: url('http://gravatar.com/avatar/6e58b3fa5297e23a66505477b49de967?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-fd2a2ade7f141e06f8fd94c000d6ac7a.png');
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: center;
+    background-size: 40px 40px;
+}
+
+.arrow-down {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #333A44;
+    width: 0;
+    height: 0;
+    margin: auto;
+}
+
+.sign-up-body {
+    padding: 30px 42px 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #5B5D64;
+}
+
+span {
+    color: #FE2E62;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 14px;
+    text-align: center;
+    color: #2A2D34;
+}
+
+.form-control {
+    margin: 10px 0px;
+    padding-left: 10px;
+    height: 32px;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+.form-control:focus {
+    outline: none !important;
+    border: 1px solid #FE2E62;
+    box-shadow: 0 0 2px #FE2E62;
+}
+
+.btn {
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: #FE2E62;
+    color: #FDFDFD;
+    font-size: 12px;
+}
+
+.btn:hover {
+    color: #FDFDFD;
+    background-color: #C6788F;
+}
+
+.btn:active {
+    color: #FDFDFD;
+    background-color: #C6375F;
+}
+
+.btn:focus {
+    color: #FDFDFD;
+}
+
+.agreement {
+    margin-top: 16px;
+    font-size: 8px;
+}
